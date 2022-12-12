@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/matnFragment">
+
+    <fragment
+        android:id="@+id/matnFragment"
+        android:name="com.example.tilimuz.fragments.matn.MatnFragment"
+        android:label="fragment_matn"
+        tools:layout="@layout/fragment_matn" />
+    <fragment
+        android:id="@+id/hujjatFragment"
+        android:name="com.example.tilimuz.fragments.hujjat.HujjatFragment"
+        android:label="fragment_hujjat"
+        tools:layout="@layout/fragment_hujjat" />
+</navigation>

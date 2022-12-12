@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tilim.uz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="lotin_rus_change">Lotin-Крилл</string>
+    <string name="rus_lotin_change">Крилл-Lotin</string>
+    <string name="tilim_uz">TILIM.UZ</string>
+    <string name="menu_for_terms_of_service">Protected by reCAPTCHA - Privacy Policy and Terms of Service</string>
+    <string name="menu_for_copyrigth">Copyright © 2022 AIRI Group Co., Ltd. All rights reserved.</string>
+    <string name="matn">Matn</string>
+</resources>

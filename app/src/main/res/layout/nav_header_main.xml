@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F6F6F7">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="top"
+                        android:src="@drawable/ic_logo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tilim_uz"
+                        android:layout_marginLeft="6dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#3474DF"
+                        android:textSize="24dp"
+                        android:textStyle="bold"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/iv_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/ic_cancel"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp">
+
+            <TextView
+                android:id="@+id/loyiha_haqida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loyiha haqida"
+                android:textColor="@color/letter_color"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/tv_boglanish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bog'lanish"
+                android:textColor="@color/letter_color"
+                android:textSize="22dp"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_xavfsizlik_siyosat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xavfsizlik siyosat"
+                android:textColor="@color/letter_color"
+                android:textSize="22dp"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:id="@+id/tv_foydalanuvchi_siyosati"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foydalanuvchi siyosati"
+                android:textColor="@color/letter_color"
+                android:layout_marginTop="30dp"
+                android:textSize="22dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_facebook"/>
+
+            <ImageView
+                android:id="@+id/iv_insta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:src="@drawable/ic_insta"/>
+
+            <ImageView
+                android:id="@+id/iv_telegram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_telegram"/>
+
+            <ImageView
+                android:id="@+id/iv_github"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/ic_github"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/menu_for_copyrigth"
+            android:maxLines="2"
+            android:textColor="#828696"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="50dp"
+            android:textColor="#828696"
+            android:maxLines="2"
+            android:text="@string/menu_for_terms_of_service"/>
+
+    </LinearLayout>
+</LinearLayout>
