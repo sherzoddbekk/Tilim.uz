@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_toast"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_toast"
+    android:layout_marginHorizontal="5dp"
+    android:padding="8dp"
+    android:paddingHorizontal="5dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_information"/>
+
+  <TextView
+      android:id="@+id/tv_toast"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="5dp"
+      android:text="@string/ovoz_yozish_ishlab_chiqilmoqda"
+      android:textColor="@color/white"
+      android:textSize="18sp"/>
+
+</LinearLayout>

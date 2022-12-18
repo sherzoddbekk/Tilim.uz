@@ -9,6 +9,10 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="letter_color">#273A5D</color>
+    <color name="letter_color_secondary">#828696</color>
     <color name="fon_color_click">#3474DF</color>
     <color name="fon_color_noclick">#E8EBF2</color>
+    <color name="color_red_fair_for">#EC594D</color>
+    <color name="color_dark">#F6F6F7</color>
+    <color name="green">#34A853</color>
 </resources>

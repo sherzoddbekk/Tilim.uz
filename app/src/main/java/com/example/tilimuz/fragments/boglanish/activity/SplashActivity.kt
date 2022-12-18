@@ -1,4 +1,4 @@
-package com.example.tilimuz.activity
+package com.example.tilimuz.fragments.boglanish.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
